@@ -1,0 +1,27 @@
+{
+  "name": "@zoncrd/gpr-optional-peer-issue",
+  "version": "0.1.0",
+  "description": "An example package with optional peer dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/zoncrd/npm-peerDependenciesMeta-GPR-issue.git",
+  "author": "zoncrd@gmail.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/zoncrd/npm-peerDependenciesMeta-GPR-issue/issues"
+  },
+  "homepage": "https://github.com/zoncrd/npm-peerDependenciesMeta-GPR-issue#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "peerDependencies": {
+    "winston": "^3.8.2"
+  },
+  "peerDependenciesMeta": {
+    "winston": {
+      "optional": true
+    }
+  }
+}
